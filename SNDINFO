@@ -1,0 +1,18 @@
+// Island sounds (see CREDITS.md)
+cat/laser      sounds/laser.ogg
+cat/laserhit   sounds/laserhit.ogg
+cat/meow1      sounds/meow1.ogg
+cat/meow2      sounds/meow2.ogg
+cat/blockbreak sounds/blockbreak.ogg
+cat/poof       sounds/poof.ogg
+cat/xp         sounds/xp.ogg
+cat/feather    sounds/feather.ogg
+cat/flap       sounds/flap.ogg
+cat/hurtmob    sounds/hurt_mob.ogg
+cat/splash     sounds/splash.ogg
+cat/boom       sounds/boom.ogg
+cat/step       sounds/step_grass.ogg
+cat/phone      sounds/phone.ogg
+$limit cat/laser 4
+$limit cat/hurtmob 3
+$limit cat/xp 3

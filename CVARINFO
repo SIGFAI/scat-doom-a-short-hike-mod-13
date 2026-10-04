@@ -1,0 +1,2 @@
+// 1 = the stream demo: the mod stages its own waves on game time (console waits elapse during the map load).
+server noarchive int hike_demo = 0;

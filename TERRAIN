@@ -1,0 +1,9 @@
+// The island sea: wade in it (feet sink a little) and splash.
+terrain IslandSea
+{
+	splash Water
+	footclip 8
+	liquid
+}
+
+floor BWATER IslandSea

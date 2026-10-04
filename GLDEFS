@@ -1,0 +1,25 @@
+// A Short Hike look: the 3D view is drawn in big soft pixels with a warm, saturated grade.
+HardwareShader PostProcess scene
+{
+	Name "HikePixels"
+	Shader "shaders/hikepixels.fp" 330
+	Enabled
+}
+
+PointLight LASERHIT
+{
+	Color 1.0 0.25 0.2
+	Size 56
+}
+FlickerLight TUNABOOM
+{
+	Color 0.7 0.9 1.0
+	Size 120
+	SecondarySize 150
+	Chance 0.5
+}
+PointLight MAGMA
+{
+	Color 1.0 0.5 0.1
+	Size 40
+}

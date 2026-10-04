@@ -1,0 +1,23 @@
+GameInfo
+{
+	AddEventHandlers = "CatHandler"
+	PlayerClasses = "HikerPlayer"
+}
+
+DoomEdNums
+{
+	20001 = GoldenFeather
+	20002 = PawCoin
+	20010 = HikerPenguin
+	20011 = HikerBunny
+	20020 = IslandPlant
+}
+
+map MAP01 "Whisker Peak"
+{
+	levelnum = 1
+	next = "MAP02"
+	sky1 = "BSKY", 0
+	music = "ISLAND"
+	nointermission
+}

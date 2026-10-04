@@ -1,0 +1,7 @@
+version "4.14"
+
+#include "zscript/fx.zs"
+#include "zscript/pickups.zs"
+#include "zscript/weapon.zs"
+#include "zscript/monsters.zs"
+#include "zscript/handler.zs"
