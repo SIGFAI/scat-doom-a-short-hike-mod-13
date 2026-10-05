@@ -1,0 +1,74 @@
+{
+  "id": "sigf/scat-doom-a-short-hike-mod-13",
+  "version": "1.0.0",
+  "name": "SCAT, mod 13: Doom × A Short Hike",
+  "tagline": "Turn every game into Minecraft. This time, mix in A Short Hike with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "doom",
+      "role": "host",
+      "engine": "GZDoom 4.14.2 + Freedoom 2"
+    },
+    {
+      "game": "ashorthike",
+      "role": "guest",
+      "label": "A Short Hike"
+    }
+  ],
+  "requires": [
+    {
+      "id": "gzdoom"
+    },
+    {
+      "id": "freedoom2"
+    }
+  ],
+  "install": [
+    {
+      "game": "doom",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "scat-doom-a-short-hike-mod-13.pk3",
+          "dst": "{app}/mod.pk3",
+          "unpack": false,
+          "url": "https://github.com/SIGFAI/scat-doom-a-short-hike-mod-13/releases/download/v1.0.0/scat-doom-a-short-hike-mod-13.pk3",
+          "sha256": "b566cfa28fb39d114216cb53f60146ce6369fc983b2e68bc9e07bacf562fc2e1",
+          "size": 4615665
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "doom",
+      "args": [
+        "-file",
+        "{app}/mod.pk3"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "scat-doom-a-short-hike-mod-13.pk3",
+      "url": "https://github.com/SIGFAI/scat-doom-a-short-hike-mod-13/releases/download/v1.0.0/scat-doom-a-short-hike-mod-13.pk3",
+      "sha256": "b566cfa28fb39d114216cb53f60146ce6369fc983b2e68bc9e07bacf562fc2e1",
+      "size": 4615665
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/scat-doom-a-short-hike-mod-13",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SCAT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "doom",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:25:07.026Z"
+}
